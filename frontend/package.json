@@ -1,0 +1,33 @@
+{
+  "name": "permissionless-frontend",
+  "version": "1.0.0",
+  "description": "Account Abstraction frontend using permissionless.js on Soneium Minato",
+  "type": "module",
+  "scripts": {
+    "dev": "rsbuild dev",
+    "build": "rsbuild build",
+    "preview": "rsbuild preview",
+    "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.1",
+    "@mui/icons-material": "^7.3.5",
+    "@mui/material": "^7.3.5",
+    "@tanstack/react-query": "^5.90.9",
+    "permissionless": "^0.3.2",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "sonner": "^2.0.7",
+    "viem": "^2.39.0",
+    "wagmi": "^2.19.4"
+  },
+  "devDependencies": {
+    "@rsbuild/core": "^1.6.6",
+    "@rsbuild/plugin-react": "^1.4.2",
+    "@types/react": "^19.2.5",
+    "@types/react-dom": "^19.2.3",
+    "eslint": "^9.39.1",
+    "typescript": "^5.9.3"
+  }
+}
